@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "458032941234",
+    "project_id": "nguyenbaofirebase",
+    "storage_bucket": "nguyenbaofirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458032941234:android:84e60cedb6f7528ad461ab",
+        "android_client_info": {
+          "package_name": "nndb.com.cuoikyandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458032941234-5soqfehc4eg4h4b4kmvcvtfm29mnbe2p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nndb.com.cuoikyandroid",
+            "certificate_hash": "30fa514d6b754e20c59eb631525dac79f5ef713d"
+          }
+        },
+        {
+          "client_id": "458032941234-g4dqq9ir2v394f1mvdpjk3bcnpjk1af4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFPMr-3NW2JdouIsay5K0ZY98YhetnIys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458032941234-g4dqq9ir2v394f1mvdpjk3bcnpjk1af4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

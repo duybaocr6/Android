@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2FA677"
+    tools:context=".MainActivity4">
+    <TextView
+        android:id="@+id/texttital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:text="Well come to Gmail" />
+
+    <EditText
+        android:id="@+id/recipientEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texttital"
+        android:hint="From"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/subjectEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recipientEt"
+        android:textColor="@color/white"
+        android:hint="Subject"
+        android:textColorHint="@color/white"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/messageEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subjectEt"
+        android:textColor="@color/white"
+        android:gravity="start"
+        android:textColorHint="@color/white"
+        android:hint="Enter message here..."
+        android:inputType="text"
+        android:minHeight="150dp" />
+
+    <Button
+        android:id="@+id/sendEmailBtn"
+        android:layout_width="wrap_content"
+        android:textSize="18dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/messageEt"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="20dp"
+        android:text="send Email" />
+
+</RelativeLayout>
